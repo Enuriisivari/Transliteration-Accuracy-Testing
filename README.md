@@ -1,4 +1,5 @@
-# Playwright Test Automation (Transliteration) - IT23357426
+
+# Transliteration Test Automation - IT23357426
 
 This script runs UI test automation for the **https://www.pixelssuite.com/transliteration** page using Playwright + Python and writes results back to an Excel file.
 
@@ -23,20 +24,22 @@ This script runs UI test automation for the **https://www.pixelssuite.com/transl
 
 ## Files Needed
 
+
 Place these files in the same folder:
 
 ```
-test_automation.py
+IT23357426.py
 Assignment 1 - Test cases.xlsx
 README.md
 ```
 
 ---
 
-## Run Command (Your Example)
+
+## Run Command
 
 ```bash
-python test_automation.py --browser-executable "C:\Program Files\Google\Chrome\Application\chrome.exe"
+python IT23357426.py --browser-executable "C:\Program Files\Google\Chrome\Application\chrome.exe"
 ```
 
 ---
@@ -54,7 +57,7 @@ python test_automation.py --browser-executable "C:\Program Files\Google\Chrome\A
 Example:
 
 ```bash
-python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --headless
+python IT23357426.py --excel "Assignment 1 - Test cases.xlsx" --headless
 ```
 
 ---
